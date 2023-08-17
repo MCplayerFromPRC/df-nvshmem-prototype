@@ -3,8 +3,8 @@
 #if OPENSHMEM is set to 1 
 export OPENSHMEM_HOME=/opt/mvapich2-x/gnu
 # if OPENSHMEM is set to 0
-export MPI_HOME=/ivylogin/home/spotluri/MPI/mvapich2-2.2/install
-export CUDA_HOME=/usr/local/cuda-9.0
+export MPI_HOME=/usr/local/mpi
+export CUDA_HOME=/usr/local/cuda
 
 #toggle trace generation functionality
 export TRACING=0
